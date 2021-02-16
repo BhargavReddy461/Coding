@@ -1,0 +1,5 @@
+a = list(map(int, input().split()))
+p = a.count(0)
+q = a.count(1)
+r = a.count(2)
+print([0]*p + [1]*q + [2]*r)
